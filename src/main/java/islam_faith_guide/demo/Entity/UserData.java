@@ -27,10 +27,6 @@ public class UserData implements Serializable {
     private String password;
 
 
-//    @OneToOne(fetch = FetchType.LAZY, optional = false)
-//    @JoinColumn(name = "id", nullable = false)
-//
-//    private MyContent myContent;
 
     @Transient
     private String msg;
